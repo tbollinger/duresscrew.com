@@ -4,6 +4,7 @@ import {useRef, useState} from 'react'
 import {Dialog} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   {name: 'Home', href: '/'},
@@ -21,7 +22,7 @@ const Navigation = ({transparent = false}) => {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Duress Crew</span>
-            <img src="/logo.png" className="h-8 w-auto" alt=""/>
+            <Image priority layout={`fill`} objectFit={`cover`} src="/logo.png" className="h-8 w-auto" alt=""/>
           </Link>
         </div>
         <div className="flex lg:hidden">
