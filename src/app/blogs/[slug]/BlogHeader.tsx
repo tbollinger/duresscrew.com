@@ -12,7 +12,11 @@ const BlogHeader: FunctionComponent<Props> = ({blog}) => {
     <div className="blog-detail-header">
 
       <div>
-        <p className="text-xl text-gray-500 py-2">{blog.datetimeParsed}</p>
+        {blog.datetimeParsed && (
+          <p className="text-xl text-gray-500 py-2">
+            {blog.datetimeParsed}
+          </p>
+        )}
         <h1 className="text-4xl font-bold">{blog.title}</h1>
       </div>
 
