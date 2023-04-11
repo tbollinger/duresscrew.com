@@ -8,6 +8,9 @@ interface Blog {
   content: string;
   slug: string;
   date: string;
+  datetime: string;
+
+  datetimeParsed: string;
   tags: string;  // We parse this later
   tagList: Array<string>;  // We parse this later
 }
