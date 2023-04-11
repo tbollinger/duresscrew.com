@@ -1,0 +1,37 @@
+{
+  "name": "duresscrew.com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.30",
+    "@types/react-dom": "18.0.11",
+    "clsx": "^1.2.1",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "gray-matter": "^4.0.3",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.6",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark": "^14.0.2",
+    "remark-gfm": "^3.0.1",
+    "remark-html": "^15.0.2",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.17",
+    "@types/react-syntax-highlighter": "^15.5.6",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  }
+}

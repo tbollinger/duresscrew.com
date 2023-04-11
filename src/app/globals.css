@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @todo: see tailwind config for why this is needed */
+.font-handwritten {
+    font-family: var(--font-rock-salt);
+}
