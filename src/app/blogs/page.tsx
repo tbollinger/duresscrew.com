@@ -26,7 +26,6 @@ const page = () => {
         </div>
       </div>
 
-
       <div className="bg-white mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-5xl border-b-2 border-gray-200">
           <div className="py-16 space-y-16">
