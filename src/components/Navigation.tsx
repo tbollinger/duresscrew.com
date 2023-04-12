@@ -22,7 +22,7 @@ const Navigation = ({transparent = false}) => {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Duress Crew</span>
-            <Image priority layout={`fill`} objectFit={`cover`} src="/logo.png" className="h-8 w-auto" alt=""/>
+            <Image priority objectFit={`cover`} src="/logo.png" className="h-10 w-auto aspect-square" width={200} height={200} alt=""/>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -52,9 +52,9 @@ const Navigation = ({transparent = false}) => {
         <div className="fixed inset-0 z-50"/>
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto text-white bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
-            <Link href="#" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Duress Crew</span>
-              <img src="/logo.png" className="h-8 w-auto" alt=""/>
+              <Image priority objectFit={`cover`} src="/logo.png" className="h-10 w-auto aspect-square" width={200} height={200} alt=""/>
             </Link>
             <button type="button" className="-m-2.5 rounded-md p-2.5 text-chartreuse-yellow-400" onClick={() => setMobileMenuOpen(false)}>
               <span className="sr-only">Close menu</span>
