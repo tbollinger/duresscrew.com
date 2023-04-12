@@ -1,4 +1,5 @@
 interface Blog {
+  id: string;
   coverImage: string;
   authorImage: string;
   author: string;
