@@ -1,7 +1,7 @@
 import React, {use} from "react"
-import Navigation from "@/components/Navigation";
 import {getBlogs} from "@/lib/blogs";
 import Link from "next/link";
+import {Blog} from "@/interfaces/Blog";
 
 async function getInitialBlogs() {
   return getBlogs();
@@ -40,7 +40,7 @@ const page = () => {
         <div className="mx-auto max-w-5xl">
           <div className="space-y-16">
             <ul role="list" className="divide-y divide-gray-200">
-              {posts.map((post) => (
+              {posts.map((post: Blog) => (
                 <li key={post.id} className={`p-10`}>
                   <article>
                     <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
