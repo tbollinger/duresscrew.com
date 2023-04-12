@@ -29,9 +29,6 @@ const BlogPost = ({content}: BlogPostProps) => {
   return (
     <ReactMarkdown
       className="prose prose-lg"
-      renderers={{
-        code: CodeBlock,
-      }}
       components={{
         h1: ({node, ...props}) => <h1 className="text-4xl py-6" {...props} />,
         h2: ({node, ...props}) => <h2 className="text-3xl py-6" {...props} />,
