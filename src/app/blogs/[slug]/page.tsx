@@ -33,7 +33,7 @@ const BlogDetail: NextPage<Props> = ({params}) => {
               {/*<p className="text-base font-semibold leading-7 text-indigo-600">MTG ideas worth writing about</p>*/}
               <h2 className="mt-2 text-4xl font-bold tracking-tight text-chartreuse-yellow sm:text-6xl font-handwritten">Duress Crew Blog</h2>
               <p className="mt-6 text-lg leading-8 text-mustard font-handwritten">
-                From Abyss to Zur: The latest tech off the top deck
+                From The Abyss to Zur: The latest tech off the top deck
               </p>
             </div>
           </div>
