@@ -9,6 +9,7 @@ import Image from "next/image";
 const links = [
   {name: 'Home', href: '/'},
   {name: 'Player Profiles', href: '/player-profiles'},
+  {name: 'Events', href: '/events'},
   {name: 'Blog', href: '/blogs'},
 ]
 

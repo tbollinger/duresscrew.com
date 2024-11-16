@@ -9,7 +9,6 @@ async function getInitialBlogs() {
 
 const page = () => {
   const posts = use(getInitialBlogs())
-  console.log(posts)
   return (
     <div>
       <div className="flex items-center bg-neutral-800 py-24 sm:py-32">

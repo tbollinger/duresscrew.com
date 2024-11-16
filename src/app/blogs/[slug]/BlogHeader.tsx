@@ -26,7 +26,7 @@ const BlogHeader: FunctionComponent<Props> = ({blog}) => {
         </div>
         <div className="text-sm leading-6">
           <p className="font-semibold text-gray-900">
-            <Link href={blog.authorUrl}><span className="absolute inset-0"/>{blog.author}</Link>
+            <span className="absolute inset-0"/>{blog.author}
           </p>
           <p className="text-gray-600">Crew Member</p>
         </div>
