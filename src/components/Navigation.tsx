@@ -8,8 +8,8 @@ import Image from "next/image";
 
 const links = [
   {name: 'Home', href: '/'},
-  {name: 'Player Profiles', href: '/player-profiles'},
-  {name: 'Blog', href: '/blogs'},
+  {name: 'Content and Discord Links', href: '/resources'},
+  {name: 'Premodern Data Project', href: 'https://data.duresscrew.com/'}
 ]
 
 

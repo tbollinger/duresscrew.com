@@ -10,6 +10,7 @@ module.exports = {
         fontFamily: {
           /** @todo: this doesn't work, and idk why, so I added it to globals.css <insert shrug emoji> */
           handwritten: ['var(--font-rock-salt)'],
+          medevial: ['var(--font-pirata-one)'],
         },
       },
       brightness: {
