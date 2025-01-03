@@ -3,12 +3,12 @@ import {ParsedUrlQuery} from "querystring";
 import {use} from "react";
 import {getBlogBySlug, getBlogs} from "@/./lib/blogs"
 import BlogHeader from "./BlogHeader";
-import Navigation from "@/components/Navigation";
+// import Navigation from "@/components/Navigation";
 import BlogPost from "@/components/BlogPost";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
-interface Params extends ParsedUrlQuery {
+interface Params extends Promise<ParsedUrlQuery> {
   slug: string;
 }
 
