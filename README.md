@@ -1,4 +1,4 @@
-This is a Next 13 project.
+This is a Next.js project.
 
 ## Writing a Blog Post
 Create a basic markdown post in the `src/app/content` directory. Changes made to this github repo will automatically be deployed to the live site.
@@ -21,6 +21,16 @@ pnpm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Before updating Master branch
+Ensure you run `pnpm build` locally so you'll be able to see if Vercel will have any breaking changes.
+The pipeline should automatically build and deploy any new changes to master.
+General workflow: 
+1. Changes made on a local branch during development
+2. Run `pnpm build` to ensure they work properly
+3. Merged into the "prod-candidate" branch
+4. Run `pnpm build` on prod-candidate branch to ensure merge worked well
+5. Finally pushed to Master, where Vercel will pull from and update
 
 ## Learn More
 To learn more about Next.js, take a look at the following resources:
