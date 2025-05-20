@@ -1,5 +1,4 @@
 'use client'
-import Link from "next/link";
 import Image from "next/image";
 
 const Page = () => {
@@ -90,9 +89,9 @@ const Page = () => {
       <div className="bg-white py-24 px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           {/*<p className="text-base font-semibold leading-7">{`uhhh what's a Duress Crew?`}</p>*/}
-          <h2 className="mt-2 text-4xl font-medevial tracking-tight text-chartreuse-yellow-600 sm:text-6xl">About us</h2>
+          <h2 className="mt-2 text-4xl font-medieval tracking-tight text-chartreuse-yellow-600 sm:text-6xl">About us</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            {`Duress Crew is an unruly gang of misfits who listen to radical music and play M:tG.  Located in Worcester but talked about everywhere, they focus primarily on premodern, with the occasional dalliance into limited, cEDH, Legacy, and other, lesser formats.`}
+            {`Duress Crew is an unruly gang of misfits who listen to radical music and play M:tG.  Located in Worcester but talked about everywhere, they focus primarily on premodern, with the occasional dalliance into limited, cEDH, Legacy, and other lesser formats.`}
           </p>
         </div>
       </div>

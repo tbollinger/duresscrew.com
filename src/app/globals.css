@@ -7,6 +7,14 @@
     font-family: var(--font-rock-salt);
 }
 
-.font-medevial {
+.font-medieval {
     font-family: var(--font-pirata-one);
+}
+
+.page-header {
+    @apply mt-2 text-4xl font-bold tracking-tight text-chartreuse-yellow sm:text-6xl font-medieval
+}
+
+.text-link {
+    @apply mr-3 text-sm font-medium uppercase text-chartreuse-yellow-600 hover:underline
 }

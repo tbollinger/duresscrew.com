@@ -1,6 +1,6 @@
 'use client'
 import clsx from "clsx"
-import {useRef, useState} from 'react'
+import {useState} from 'react'
 import {Dialog} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
 import Link from "next/link";
@@ -8,8 +8,10 @@ import Image from "next/image";
 
 const links = [
   {name: 'Home', href: '/'},
+  // {name: 'Blog', href: 'https://duresscrew.substack.com/'},
   {name: 'Content and Discord Links', href: '/resources'},
-  {name: 'Premodern Data Project', href: 'https://data.duresscrew.com/'}
+  {name: 'Premodern Data Project', href: 'https://data.duresscrew.com/'},
+  {name: 'Support Us', href:'https://ko-fi.com/duresscrew/'}
 ]
 
 
