@@ -6,8 +6,7 @@ type SocialIcon = {
 
 const navigation = {
   main: [
-    {name: 'Blog', href: '/blogs/'},
-    {name: 'Player Profiles', href: '/player-profiles/'},
+    // {name: 'Blog', href: 'https://duresscrew.substack.com/'},
   ],
   social: [
     {name: 'Instagram',
