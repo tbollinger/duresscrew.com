@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <>
       <main className="relative isolate min-h-full  backdrop-grayscale">
-        <Image priority layout={`fill`} objectFit={`cover`} src="/duress.png" alt=""
+        <Image priority fill src="/duress.png" alt=""
                className="absolute inset-0 -z-10 h-full w-full object-cover object-top saturate-0 brightness-25"
         />
         <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8">

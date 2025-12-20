@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <div className="bg-mustard-900">
       <div className="relative isolate overflow-hidden pt-14">
-        <Image priority layout={`fill`} objectFit={`cover`} className="absolute inset-0 -z-10 h-full w-full object-cover object-top brightness-25 grayscale" alt=""
+        <Image priority fill className="absolute inset-0 -z-10 h-full w-full object-cover object-top brightness-25 grayscale" alt=""
              src="/duress.png"
         />
         <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">

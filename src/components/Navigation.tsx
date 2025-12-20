@@ -24,7 +24,7 @@ const Navigation = ({transparent = false}) => {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Duress Crew</span>
-            <Image priority objectFit={`cover`} src="/logo.png" className="h-10 w-auto aspect-square" width={200} height={200} alt=""/>
+            <Image priority src="/logo.png" className="h-10 w-auto aspect-square" width={200} height={200} alt=""/>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -56,7 +56,7 @@ const Navigation = ({transparent = false}) => {
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Duress Crew</span>
-              <Image priority objectFit={`cover`} src="/logo.png" className="h-10 w-auto aspect-square" width={200} height={200} alt=""/>
+              <Image priority src="/logo.png" className="h-10 w-auto aspect-square" width={200} height={200} alt=""/>
             </Link>
             <button type="button" className="-m-2.5 rounded-md p-2.5 text-chartreuse-yellow-400" onClick={() => setMobileMenuOpen(false)}>
               <span className="sr-only">Close menu</span>
