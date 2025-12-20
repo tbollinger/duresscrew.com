@@ -5,41 +5,33 @@
   --font-handwritten: var(--font-rock-salt);
   --font-medieval: var(--font-pirata-one);
 
-  /* Custom brightness value */
-  --brightness-25: 0.25;
-
   /* Chartreuse Yellow palette */
-  --color-chartreuse-yellow-50: #F4FFB8;
-  --color-chartreuse-yellow-100: #F1FFA3;
-  --color-chartreuse-yellow-200: #EBFF7A;
-  --color-chartreuse-yellow-300: #E4FF52;
-  --color-chartreuse-yellow-400: #DEFF29;
-  --color-chartreuse-yellow-500: #D8FF00;
-  --color-chartreuse-yellow-600: #A8C700;
-  --color-chartreuse-yellow-700: #798F00;
+  --color-chartreuse-yellow-50: #f4ffb8;
+  --color-chartreuse-yellow-100: #f1ffa3;
+  --color-chartreuse-yellow-200: #ebff7a;
+  --color-chartreuse-yellow-300: #e4ff52;
+  --color-chartreuse-yellow-400: #deff29;
+  --color-chartreuse-yellow-500: #d8ff00;
+  --color-chartreuse-yellow-600: #a8c700;
+  --color-chartreuse-yellow-700: #798f00;
   --color-chartreuse-yellow-800: #495700;
-  --color-chartreuse-yellow-900: #1A1F00;
+  --color-chartreuse-yellow-900: #1a1f00;
   --color-chartreuse-yellow-950: #020300;
-  --color-chartreuse-yellow: #D8FF00;
+  --color-chartreuse-yellow: #d8ff00;
 
   /* Mustard palette */
-  --color-mustard-50: #FFFFFF;
-  --color-mustard-100: #FFFFFF;
-  --color-mustard-200: #FFF9DB;
-  --color-mustard-300: #FFF3B3;
-  --color-mustard-400: #FFED8A;
-  --color-mustard-500: #FFE661;
-  --color-mustard-600: #FFDD29;
-  --color-mustard-700: #F0CA00;
-  --color-mustard-800: #B89B00;
-  --color-mustard-900: #806C00;
+  --color-mustard-50: #ffffff;
+  --color-mustard-100: #ffffff;
+  --color-mustard-200: #fff9db;
+  --color-mustard-300: #fff3b3;
+  --color-mustard-400: #ffed8a;
+  --color-mustard-500: #ffe661;
+  --color-mustard-600: #ffdd29;
+  --color-mustard-700: #f0ca00;
+  --color-mustard-800: #b89b00;
+  --color-mustard-900: #806c00;
   --color-mustard-950: #635400;
-  --color-mustard: #FFE661;
-}
-
-/* Custom utility for brightness-25 */
-@utility brightness-25 {
-  filter: brightness(0.25);
+  --color-mustard: #ffe661;
 }
 
 /* Component classes */
