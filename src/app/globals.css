@@ -1,20 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* @todo: see tailwind config for why this is needed */
-.font-handwritten {
-    font-family: var(--font-rock-salt);
+@theme {
+  /* Fonts - this fixes the bug in your old config (fontFamily was nested inside fontFamily) */
+  --font-handwritten: var(--font-rock-salt);
+  --font-medieval: var(--font-pirata-one);
+  --font-mono: var(--font-ibm-plex-mono);
+
+  /* Chartreuse Yellow palette */
+  --color-chartreuse-yellow-50: #f4ffb8;
+  --color-chartreuse-yellow-100: #f1ffa3;
+  --color-chartreuse-yellow-200: #ebff7a;
+  --color-chartreuse-yellow-300: #e4ff52;
+  --color-chartreuse-yellow-400: #deff29;
+  --color-chartreuse-yellow-500: #d8ff00;
+  --color-chartreuse-yellow-600: #a8c700;
+  --color-chartreuse-yellow-700: #798f00;
+  --color-chartreuse-yellow-800: #495700;
+  --color-chartreuse-yellow-900: #1a1f00;
+  --color-chartreuse-yellow-950: #020300;
+  --color-chartreuse-yellow: #d8ff00;
+
+  /* Mustard palette */
+  --color-mustard-50: #ffffff;
+  --color-mustard-100: #ffffff;
+  --color-mustard-200: #fff9db;
+  --color-mustard-300: #fff3b3;
+  --color-mustard-400: #ffed8a;
+  --color-mustard-500: #ffe661;
+  --color-mustard-600: #ffdd29;
+  --color-mustard-700: #f0ca00;
+  --color-mustard-800: #b89b00;
+  --color-mustard-900: #806c00;
+  --color-mustard-950: #635400;
+  --color-mustard: #ffe661;
 }
 
-.font-medieval {
-    font-family: var(--font-pirata-one);
-}
-
+/* Component classes */
 .page-header {
-    @apply mt-2 text-4xl font-bold tracking-tight text-chartreuse-yellow sm:text-6xl font-medieval
+  @apply mt-2 text-4xl font-bold tracking-tight text-chartreuse-yellow sm:text-6xl font-medieval;
 }
 
 .text-link {
-    @apply mr-3 text-sm font-medium uppercase text-chartreuse-yellow-600 hover:underline
+  @apply mr-3 text-sm font-medium uppercase text-chartreuse-yellow-600 hover:underline;
 }
