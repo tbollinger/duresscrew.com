@@ -4,6 +4,7 @@
   /* Fonts - this fixes the bug in your old config (fontFamily was nested inside fontFamily) */
   --font-handwritten: var(--font-rock-salt);
   --font-medieval: var(--font-pirata-one);
+  --font-mono: var(--font-ibm-plex-mono);
 
   /* Chartreuse Yellow palette */
   --color-chartreuse-yellow-50: #f4ffb8;
