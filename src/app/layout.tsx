@@ -1,5 +1,4 @@
 import "./globals.css";
-
 import { Rock_Salt, Pirata_One, IBM_Plex_Mono } from "next/font/google";
 
 const rock_salt = Rock_Salt({
