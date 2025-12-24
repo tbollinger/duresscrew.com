@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SnowfallEffect from "@/components/SnowfallEffect";
 
 // ============================================
 // LINK DATA - Easy to add/modify links here
@@ -150,6 +151,9 @@ export default function LinksPage() {
           backgroundSize: "auto 100%",
         }}
       />
+
+      {/* Snowfall effect */}
+      <SnowfallEffect />
 
       {/* Film grain overlay */}
       <div
