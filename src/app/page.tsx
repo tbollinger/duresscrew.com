@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CurrentYear from "@/components/CurrentYear";
 import SnowfallEffect from "@/components/SnowfallEffect";
 
 // ============================================
@@ -270,7 +271,7 @@ export default function LinksPage() {
         {/* Footer */}
         <footer className="mt-8 pt-4">
           <p className="text-center text-[10px] tracking-wider text-neutral-500">
-            © {new Date().getFullYear()}
+            © <CurrentYear />
           </p>
         </footer>
       </main>
